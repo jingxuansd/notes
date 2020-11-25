@@ -38,7 +38,7 @@ brew install docker
    spring:
       application: demo
 2. 修改logback配置文件
-   ```
+   ```xml
    <appender name="logFile"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${logging.path}/${application.name}.log</file>
@@ -63,7 +63,7 @@ brew install docker
    vi /usr/local/etc/filebeat/filebeat.yml
    ```
    配置如下：
-   ```
+   ```yml
    filebeat.inputs:
    - type: log
    paths:
