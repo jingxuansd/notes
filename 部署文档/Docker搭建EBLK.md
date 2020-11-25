@@ -32,7 +32,7 @@ brew install docker
 
 ## 配置spring boot 应用
 1. 修改application.yml
-   ```
+   ```yml
    logging:
       path: /Users/jingxuan/log
    spring:
